@@ -1,0 +1,165 @@
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+/*#nav-bar a:hover {
+    color: rgb(224, 4, 4);
+    }*/
+.navbar-toggler {
+	border: none!important;
+}
+#slider {
+	width: 100%;
+}
+.carousel-caption h5{
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+.carousel-caption p{
+	font-size: 1rem;
+}
+#about {
+	padding: 50px 0;
+	color: #555;
+} 
+#about button {
+	margin: 1rem 0;
+}
+.skills-bar {
+	margin: auto;
+	font-weight: 600;
+}
+.skills-bar p{
+	margin: 0.5rem 0;
+}
+#services{
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url(../imgs/22.jpg)!important;
+	background-size: cover;
+	background-position: center;
+	color: #efefef!important;
+	background-attachment: fixed;
+	padding: 2.5rem 0;
+}
+#services h2{
+	margin: auto;
+	text-align: center;
+	padding-bottom: 10px;
+	width: 25%;
+	border-bottom: 2px solid #efefef;
+	color: #efefef !important;
+}
+#services .col-md-3{
+	margin: 1rem 0;
+	border-radius: 10%;
+	padding: 2rem;
+}
+#services .col-md-3:hover{
+	background: rgba(0,0,0,0.5);
+	transition: 0.5s;
+}
+#team{
+	padding: 4rem 0;
+	filter: grayscale(1);
+	transition: 1s;
+}
+#team h2{
+	margin: auto;
+	text-align: center;
+	width: 25%;
+	margin: auto;
+	border-bottom: 2px solid #212529;
+}
+#team .row{
+	background: rgba(0,0,0,0.01);
+	border-radius: 5%
+	padding: 2rem;
+}
+#team img{
+	margin:	auto 0;
+	padding: 2rem 0;
+	opacity: 1;
+	height: 100%;
+	width: 100%;
+	/*filter: grayscale(1);*/
+}
+#team .col-md-6{
+	margin: auto;
+}
+#team:hover{
+	filter: grayscale(0);
+	transition: 1s;
+}
+#citation blockquote{
+	background: rgba(0,0,0,0.009);
+	border-left: 4px solid rgba(0,0,0,0.2);
+	padding: 2rem;
+}
+footer a{
+	color: inherit;
+	font-weight: 300;
+}
+footer a:hover{
+	text-decoration: none;
+	font-weight: 500;
+	transition: 0.2s;
+	color: inherit;
+}
+
+#testimonials{
+	padding: 0;
+}
+#testimonials h3{
+	margin: auto;
+	text-align: center;
+	width: 25%;
+	border-bottom: 2px solid #212529;
+	margin-bottom: 3rem;
+}
+#testimonials .col-md-4{
+	margin: 2.5rem 0;
+	background: rgba(0,0,0,0.01);
+}
+.user{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.profile{
+	padding: 40px 10px 10px;
+	background-color: #efefef;
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.5);
+}
+.profile img{
+	margin: auto;
+	top: -80px;
+	position: absolute;
+	left: calc(50% - 60px);
+	border: 1.5px solid #212529;
+}
+
+#contact{
+	background: #efefef;
+	padding: 2rem 0;
+	color: #777;
+}
+.contact-form{
+	padding: 1rem;
+}
+.form-control{
+	border: none !important;
+	border-radius: 0;
+}
+::placeholder{
+	color: #999 !important
+}
+.follow{
+	background: #fff;
+	padding: 1rem;
+	margin: 1rem;
+}
+.footer-f{
+	background: #333;
+	color: #fff;
+	padding: 0.5rem;
+}
